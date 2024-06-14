@@ -1,0 +1,28 @@
+--------------------------------------------------------------------------------
+
+int x = 10;
+cout << &ch << endl;
+//will print address
+
+same for float and other variables but the exception is of character variables
+for example
+char ch = 'A';
+the cout << &ch << endl;
+will print 'A' due to operator overloading.
+
+hence here we need to do explicit typecasting , to print the actual address, we do it the following way
+cout << (void *) &ch << endl;
+
+
+---------------------------------------------------------------------------------
+
+## Dynamic memeory allocation
+
+when to allocate and deallocate is decided by the programmer through code
+1) new
+2) delete
+
+eg
+int *ptr = new int    //int on heap, ptr in memory static
+
+delete []a;    //to delete entire array;
