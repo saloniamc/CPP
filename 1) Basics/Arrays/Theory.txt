@@ -1,0 +1,17 @@
+*********
+if we do  
+char b[] = {1, 2, 3}
+then, 
+   cout << b;     will print the address of the the array ie first character
+
+but if we do the same for character array like
+char c = {a, b, c, d, e}
+the cout << c;     will print the contents of the array i.e  a, b, c, d, e
+
+****************** READING SENTENCE OR PARAGRAPH
+
+char a[1000];
+cin.getline(a, 1000, '$')      //means store it in array a having size to store 1000 characters and 
+                               stop when the symbol $ is given as input
+
+                               
