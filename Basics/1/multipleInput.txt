@@ -1,0 +1,8 @@
+1) Input redirection & output redirection:-
+
+   from command line if you need to give an input file to a cpp file and
+   produce the output in some ouput file , you can do this in below way:
+
+   1) first build the file then
+      a) on linux:-    ./filename < inputfilename
+
