@@ -1,0 +1,62 @@
+String class is a part of C++ standard template library.
+An alternative to character array.
+It is like a container of char array.
+
+#include <string>
+
+
+***Ways to initialize
+
+string s0;      //s0 is the object of class string.
+string s1("Hello");
+string s2 = "Hello World";
+
+string s3(s2);     //copy constructor for the string object.
+string s4 = s3;
+
+char a[] = {'a', 'b', 'c', '\0'};
+ctring s5(a);
+
+
+-------------string functions----------
+if(s0.empty())    //to check if string is empty
+
+s0.append("Hello hello");        //To append string
+s0 += " hey i like this."
+
+s0.clear();       //Removes all characters from the string
+
+s0.compare(s1);     //To compare the strings;    return 0, <0 or >0    compares Lexicographically
+
+s0 > s1;    or      //Operator overloaded
+s0 < s1;
+
+int index = s0.find("apple");       //Find the index of the substring apple in the string s0
+
+s0.erase(index, length);        //Starting from the index, remove the "length" number of characters.
+
+//Iterators
+for(auto it = s.begin(); it = s.end(); it++)
+{
+    cout << (*it) << endl;
+}
+
+/For each
+for(auto c: s1)
+{
+    cout << c << endl;
+}
+
+/////// Iterators are defined inside the string class i.e class iterators 
+       string::iterator it;
+
+            auto it = s.begin() // s is a string so we can write   string:: iterator it
+
+
+
+----------------------STRING TOKENIZE----------------------------------------------
+
+char* strtok(char *s, char *delimiters);
+return s a token on each subsequent call
+on the first call function should be passed with the string argument for 's'
+on subsequent calls we should pass the string argument as null;
