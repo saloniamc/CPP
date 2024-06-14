@@ -1,0 +1,50 @@
+#-----------Primitive Datatypes :--------------------------------------------------
+
+datatype    memory            range
+                     unsigned        signed
+  int       4 B      32 bits          32 (1 sign bit)
+  float     4 B                32
+  bool      1 B                 1
+  char      1 B              <= 256 
+  double    8 B                 32
+
+  //sizeof() :- to find how much memory is occupied
+  // INT_MAX :- max number that can be saved in an integer variable    
+  // INT_MIN :- min -"-         
+     ** INT_MAX + 1 = INT_MIN
+  ##### both are declared  in <climits> hearder file
+
+#--------------Datatype Modifiers :
+
+long                             8 B
+long long                        8 B 
+short                            2 B
+signed 
+unsigned
+
+
+
+---------------Read a list of characters (Sentence)--------------------------
+
+1)  cin does not read white spaces
+
+char ch;
+cin >> ch;
+
+while(ch != '.'){
+   cout << ch;
+   cin >> ch;
+}
+
+2)  when the input is given as:- "hello world."
+   as cin does not read white spaces and the input buffer does not save space for white space and 
+   same goes for output buffer the output is given as:-  helloworld.
+
+   so in order to get the whitespaces too in the output we can use:-  cin.get()
+
+   eg. char ch;
+      ch = cin.get()   
+
+      // This method reads any single char including whitespaces/newlines 
+      from the input buffer 
+

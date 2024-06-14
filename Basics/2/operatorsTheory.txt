@@ -1,0 +1,28 @@
+Types :-
+
+1) Assignment   x = 5
+
+2) Bitwise      &  bitwise AND
+                |  bitwise OR 
+                ^  bitwise XOR 
+                ~  bitwise  NOT 
+
+3) Shift        <<   Left shift  
+                >>   Right Shift
+
+4) Unary Operators     &   AddressOf (reference)
+                      *   Dereference  
+                      new operator 
+                      delete operator
+                      ~   Logical not
+                      -  (eg -5) Unary minus
+                      +   unary plus
+
+5) Arithmetic operators       *  , -, *, /, % 
+                    
+6) ternary operator     condition ? if true this : else this
+s
+7) Relational Operator     > , < , ==, <= , >=
+
+8) Logical Operators        &&, ||
+                                        
