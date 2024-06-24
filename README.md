@@ -2,26 +2,26 @@
   
 - Intro to OOPS
 
-Operator Overloading
+- Operator Overloading
 
-Inheritance
+- Inheritance
 
-BaseClassPtr_&_Deri...
+- BaseClassPtr_&_Deri...
 
-Polymorphism
+- Polymorphism
 
-Friend and Static me...
+- Friend and Static me...
 
-Exception Handelling
+- Exception Handelling
 
-Template Functions A...
+- Template Functions A...
 
-Constants, Preproces
+- Constants, Preproces
 
-Destructor and Virtu...
+- Destructor and Virtu...
 
-IOStreams
+- IOStreams
 
-STL
+- STL
 
-C++11
+- C++11
