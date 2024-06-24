@@ -1,6 +1,6 @@
-##CPP OOPS
+## CPP OOPS
   
-Intro to OOPS
+- Intro to OOPS
 
 Operator Overloading
 
